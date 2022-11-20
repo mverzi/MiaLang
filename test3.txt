@@ -1,0 +1,12 @@
+<mia>
+varOne intOne ;
+varTwo intFour ;
+varOne = 6; 
+varTwo = 7; 
+iffy ( varOne <= varTwo ) {
+    varOne = varTwo + 12;
+}
+whilst (varTwo < 9) { 
+    varTwo = 10; 
+}
+</mia>

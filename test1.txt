@@ -1,0 +1,19 @@
+<mia>
+varOne intOne ;
+varTwo intTwo ;
+varThree intThree ;
+varOne = 5 ;
+varTwo = 15 ;
+varThree = 25 ;
+
+iffy (varOne < varTwo) {
+    varOne = varOne - 1 ;
+}
+elsey {
+    varTwo = varThree - 5 ;
+}
+whilst ( varOne == varTwo ) {
+    varOne = 0 ;
+}
+
+</mia>

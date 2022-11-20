@@ -1,0 +1,21 @@
+<mia>
+varOne intOne ;
+varTwo intTwo ;
+varThree intThree ;
+varOne = 5 ;
+varTwo = 15 ;
+varThree = 25 ;
+
+varTwo -- varOne ; #error, -- not valid
+
+iffy (varOne <+ varTwo) { #error, <+ not valid
+    varOne = varOne -= 1 ; #error, -= not valid
+}
+elsey {
+    varTwo =! varThree - 5 ; #error, =! not valid
+}
+whilst ( varOne === varTwo ) { #error, === not valid
+    varOne = 0 ;
+}
+
+</mia>
