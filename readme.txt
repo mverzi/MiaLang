@@ -18,3 +18,9 @@ start--> `<mia>` <stmt>
 <booTerm> --> <booFactor> {(`+`|`-`) <booFactor>}
 <booFactor>--> `id`|`int_lit`|`bool_lit`s
 
+Allowed Characters:
+if_stmt = iffy
+while_stmt = whilst
+else_stmt = elsey
+math operations = +,-,*,/,%
+bool expressions = <,>,<=.>=,!=,==
